@@ -123,7 +123,7 @@ app.post('/cadastro', [
 });
 
 
-
+// Rota para autenticar usuário
 app.post('/login', async (req, res) => {
   const { email, senha } = req.body;
 
@@ -148,7 +148,6 @@ app.post('/login', async (req, res) => {
     });
   }
 });
-
 
 
 // Inicia o servidor
